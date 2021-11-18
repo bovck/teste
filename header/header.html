@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Header</title>
+	<link rel="stylesheet" type="text/css" href="style_header.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="index.html">
+				<img src=img/PROJETOU9-3.png>
+			</a>
+
+			<div class="menu" id="menubar">
+
+				<i class="fa fa-times" onclick="fechar()"></i>
+
+				<ul>
+					<li><a href="">INICIO</a></li>
+					<li><a href="">PERSONAGEM</a></li>
+					<li><a href="">CONTATO</a></li>
+
+				</ul>
+
+			</div>
+			<i class="fa fa-bars" onclick="abrir()"></i>
+		</nav>
+	</header>
+
+	<script>
+		var menubar = document.getElementById("menubar");
+
+		function abrir() {
+			menubar.style.right = "0"
+		}
+
+		function fechar() {
+			menubar.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>

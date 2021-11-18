@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style_personagens.css" rel="stylesheet">
+    <link href="css/style_header.css" rel="stylesheet">
+    <link href="css/style_footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Personagens</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src=imagens/projetou9-3.png>
+            </a>
+
+            <div class="menu" id="menubar">
+
+                <i class="fa fa-times" onclick="fechar()"></i>
+
+                <ul>
+                    <li><a href="../index/index.html">INICIO</a></li>
+                    <li><a href="./personagens.html">PERSONAGEM</a></li>
+                    <li><a href="../contato/contato.html">CONTATO</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="abrir()"></i>
+        </nav>
+    </header>
+
+    <div class="first-content">
+        <h2>Atacantes</h2>
+    </div>
+    <div class="row">
+        <div class="card green">
+            <a href="evellynn.html">
+                <p><img src="Imagens\iconeevellyn.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Evellynn</p>
+        </div>
+
+        <div class="card blue">
+            <a href="galo_assassino.html">
+                <p><img src="Imagens\iconegaloassassino.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Galo Assassino</p>
+        </div>
+
+        <div class="card red">
+            <a href="lamina_assassina.html">
+                <p><img src="imagens\iconehikari.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Hikari</p>
+        </div>
+
+        <div class="card ciano">
+            <a href="mascarado_diabolico.html">
+                <p><img src="Imagens\iconeomascarado.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Mascarado</p>
+        </div>
+    </div>
+
+    <div class="first-content">
+        <h2>Defensores</h2>
+    </div>
+
+    <div class="row">
+        <div class="card green">
+            <a href="espirito_do_mal.html">
+                <p><img src="Imagens\iconex.jpg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Espírito Do Mal</p>
+        </div>
+
+        <div class="card blue">
+            <a href="jason.html">
+                <p><img src="Imagens\iconejason.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Jason</p>
+        </div>
+
+        <div class="card red">
+            <a href="guerreiro_sanguinario.html">
+                <p><img src="Imagens\iconeguerreirosanguinario.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Guerreiro Sanguinário</p>
+        </div>
+
+        <div class="card ciano">
+            <a href="o_estrategista.html">
+                <p><img src="Imagens\iconeoestrategista.jpeg" alt="" width="120px" height="120px" /></p>
+            </a>
+            <p>Estrategista</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>ProjetoU9</h3>
+            <p>O <i> ProjetoU9 </i> é um grupo de estudantes da faculdade Uninove, que
+                desenvolveram um Site Web de personalização de personagens Rpg. </p>
+            <ul class="socials">
+                <li><a href="https://chat.whatsapp.com/L7VUCfJw6yI6pcqJTEicuQ"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://github.com/"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/projetou9/?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2021 ProjetoU9. Designed by <span>ProjetoU9</span></p>
+        </div>
+    </footer>
+
+    <script>
+        var menubar = document.getElementById("menubar");
+
+        function abrir() {
+            menubar.style.right = "0"
+        }
+
+        function fechar() {
+            menubar.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Início</title>
+	<link rel="stylesheet" type="text/css" href="style_index.css">
+	<link rel="stylesheet" type="text/css" href="style_footer.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<img src=img/PROJETOU9-3.png>
+			<div class="menu" id="menubar">
+
+				<i class="fa fa-times" onclick="fechar()"></i>
+
+				<ul>
+					<li><a href="./index.html">INICIO</a></li>
+					<li><a href="../personagens/personagens.html">PERSONAGEM</a></li>
+					<li><a href="../contato/contato.html" target="_blanked">CONTATO</a></li>
+
+				</ul>
+
+			</div>
+			<i class="fa fa-bars" onclick="abrir()"></i>
+		</nav>
+
+		<div class="texto">
+			<h1>THE BEST INFORMATION NOW</h1>
+			<p>Welcome to The Warrior's</p>
+			<a href="../cadastro/cadastro.HTML" target="_blanked" class="btn">Cadastre-se</a>
+		</div>
+	</header>
+
+	<div class="small-container">
+		<h1 class="titulo"><b>Personagens</b></h1>
+		<div class="row">
+			<div class="col-4">
+				<img src="img/iconehikari.jpeg" width="200px" height="250px">
+				<h4>Hitagi-Lamina Assassina</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconeguerreirosanguinario.jpeg" width="200px" height="250px">
+				<h4>Guerreiro Sanguinário</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconeevellyn.jpeg" width="200px" height="250px">
+				<h4>Evelyn</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconegaloassassino.jpeg" width="200px" height="250px">
+				<h4>Galo Assasino</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconeomascarado.jpeg" width="200px" height="250px">
+				<h4>Mascarado Diabolico</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconeoestrategista.jpeg" width="200px" height="250px">
+				<h4>Estrategista</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconejason.jpeg" width="200px" height="250px">
+				<h4>Jason</h4>
+			</div>
+
+			<div class="col-4">
+				<img src="img/iconex.jpg" width="200px" height="250px">
+				<h4>Espírito do Mal</h4>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer-content">
+			<h3>ProjetoU9</h3>
+			<p>O <i> ProjetoU9 </i> é um grupo de estudantes da faculdade Uninove, que
+				desenvolveram um Site Web de personalização de personagens Rpg. </p>
+			<ul class="socials">
+				<li><a href="https://chat.whatsapp.com/L7VUCfJw6yI6pcqJTEicuQ"><i class="fa fa-whatsapp"></i></a></li>
+				<li><a href="https://github.com/"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://www.instagram.com/projetou9/?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>Copyright &copy;2021 ProjetoU9. Designed by <span>ProjetoU9</span></p>
+		</div>
+	</footer>
+
+	<script>
+		var menubar = document.getElementById("menubar");
+
+		function abrir() {
+			menubar.style.right = "0"
+		}
+
+		function fechar() {
+			menubar.style.right = "-200px";
+		}
+	</script>
+
+
+</body>
+
+</html>
